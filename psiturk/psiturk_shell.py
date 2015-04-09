@@ -18,7 +18,7 @@ import atexit
 
 from cmd2 import Cmd
 from docopt import docopt, DocoptExit
-import readline
+import gnureadline as readline
 
 import webbrowser
 import sqlalchemy as sa
